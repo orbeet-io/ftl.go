@@ -3,12 +3,13 @@ package ftlParser
 import (
 	"errors"
 	"fmt"
-	"ftl.go/ctx"
-	"ftl.go/expr"
-	"ftl.go/utils"
 	"io"
 	"reflect"
 	"strings"
+
+	"github.com/orbeet-io/ftl.go/ctx"
+	"github.com/orbeet-io/ftl.go/expr"
+	"github.com/orbeet-io/ftl.go/utils"
 )
 
 type processor func(w io.Writer, global *ctx.Global) error

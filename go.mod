@@ -1,1 +1,1 @@
-module "ftl.go"
+module "github.com/orbeet-io/ftl.go"

@@ -2,8 +2,9 @@ package ftlParser
 
 import (
 	"fmt"
-	"ftl.go/ctx"
 	"io"
+
+	"github.com/orbeet-io/ftl.go/ctx"
 )
 
 type astNode struct {

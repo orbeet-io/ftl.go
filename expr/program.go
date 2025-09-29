@@ -3,11 +3,12 @@ package expr
 import (
 	"errors"
 	"fmt"
-	"ftl.go/ctx"
-	"ftl.go/functions"
 	"reflect"
 	"strconv"
 	"sync"
+
+	"github.com/orbeet-io/ftl.go/ctx"
+	"github.com/orbeet-io/ftl.go/functions"
 )
 
 type op struct {

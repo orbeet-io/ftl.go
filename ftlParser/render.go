@@ -3,8 +3,9 @@ package ftlParser
 import (
 	"bytes"
 	"fmt"
-	"ftl.go/ctx"
 	"io"
+
+	"github.com/orbeet-io/ftl.go/ctx"
 )
 
 type Renderer struct {
